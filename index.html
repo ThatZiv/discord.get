@@ -1,0 +1,55 @@
+<!-- Made by Zua @ https://github.com/thatziv -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta name="description" content="Find out who is in a discord guild without actually joining">
+  <meta name="keywords" content="discord,zua,zavaar,shah,github,thatziv">
+  <meta name="author" content="Zavaar Shah">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<!-- Dependencies -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+ </head>
+ <body>
+
+
+
+ 	<!-- Container Start -->
+ 	<div class="container-fluid">
+
+ 		<h1>Discord Member List</h1>
+ 		<p1>Find out who is in a discord guild with just the server id. <i>Make sure the server has <a href="https://blog.discordapp.com/add-the-discord-widget-to-your-site-d45ffcd718c6"> discord server embed</a> enabled</i></p1>
+			<br>
+ 		<div class="input-group input-group-lg">
+ 			<span class="input-group-addon" id="basic-addon1"><a href="https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-"><u>Server ID</u></a></span>
+
+  			<input id="id" type="text" class="form-control" placeholder="Type it here" aria-describedby="basic-addon1">
+
+  			<span class="input-group-btn">
+        	<button id="btn" class="btn btn-default" type="button"><b>Get</b></button>
+        	<button class="btn btn-default" type="button"><a href="/">Clear</a></button>
+
+      		</span>
+ 		</div>
+
+ 		<div id="total">
+ 			
+ 		</div>
+		<div id="output">
+			<h3>Output:</h3>
+		</div>
+
+
+	</div>
+<script src="discord.js"></script>
+ </body>
+</html>
